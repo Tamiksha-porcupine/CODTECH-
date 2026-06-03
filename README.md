@@ -1,4 +1,4 @@
-# 🗄️ SQL Internship — From Basics to Advanced
+# SQL Internship — From Basics to Advanced
 
 > A hands-on SQL internship project covering core database concepts, advanced querying, Python-SQL integration via SQLAlchemy, and database backup & restoration — all applied to a real-world video game dataset.
 
@@ -16,17 +16,17 @@ This repository documents my SQL internship journey, progressing from foundation
 
 ```
  sql-internship/
-├── 📄 TASK_1.pdf               # Database setup & basic SQL queries
-├── 📄 TASK_2_SQL.pdf           # Advanced queries: JOINs, CTEs, Window Functions
-├── 📓 TASK_3_SQL_SQLAlchemy.ipynb   # Python + MySQL via SQLAlchemy
-└── 📓 TASK_4_SQL_RESTORING.ipynb    # Database backup & restoration
+├── TASK_1.pdf               # Database setup & basic SQL queries
+├── TASK_2_SQL.pdf           # Advanced queries: JOINs, CTEs, Window Functions
+├── TASK_3_SQL_SQLAlchemy.ipynb   # Python + MySQL via SQLAlchemy
+└── TASK_4_SQL_RESTORING.ipynb    # Database backup & restoration
 ```
 
 ---
 
-## 📋 Task Breakdown
+## Task Breakdown
 
-### ✅ Task 1 — Database Setup & Core SQL
+###  Task 1 — Database Setup & Core SQL
 **Tools:** MySQL Workbench / MySQL CLI
 
 - Created a `sets` database with two relational tables:
@@ -45,7 +45,7 @@ This repository documents my SQL internship journey, progressing from foundation
 
 ---
 
-### ✅ Task 2 — Advanced SQL: JOINs, CTEs & Window Functions
+### Task 2 — Advanced SQL: JOINs, CTEs & Window Functions
 **Tools:** MySQL CLI
 
 Applied advanced SQL techniques to extract meaningful insights from the relational dataset.
@@ -88,7 +88,7 @@ FROM TopGames WHERE RankInYear = 1 ORDER BY Year;
 
 ---
 
-### ✅ Task 3 — Python + MySQL via SQLAlchemy
+### Task 3 — Python + MySQL via SQLAlchemy
 **Tools:** Python · SQLAlchemy 2.0 · mysql-connector-python · Pandas · Jupyter Notebook
 
 Bridged MySQL and Python for programmatic database interaction.
@@ -112,7 +112,7 @@ imdb_df.to_sql("imdb_backup", con=engine, if_exists="replace", index=False)
 
 ---
 
-### ✅ Task 4 — Database Backup & Restoration
+### Task 4 — Database Backup & Restoration
 **Tools:** Python · SQLAlchemy · Pandas · CSV
 
 Implemented a complete backup and restore pipeline for database resilience.
@@ -138,7 +138,7 @@ df.to_sql("imdb", con=engine, if_exists="replace", index=False)
 
 ---
 
-## 🧠 Key SQL Concepts Learned
+## Key SQL Concepts Learned
 
 | Concept | Applied In |
 |---------|------------|
@@ -155,7 +155,7 @@ df.to_sql("imdb", con=engine, if_exists="replace", index=False)
 
 ---
 
-## ⚙️ Setup & Run
+##  Setup & Run
 
 **Prerequisites:**
 ```
@@ -181,7 +181,7 @@ jupyter notebook
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 A curated dataset of **10 top-rated video games** with ratings, votes, and multi-genre classification.
 
@@ -189,9 +189,9 @@ Titles include: *God of War, Red Dead Redemption II, Grand Theft Auto V, The Las
 
 ---
 
-## 🚀 Skills Demonstrated
+## Skills Demonstrated
 
-`MySQL` `SQL Joins` `CTEs` `Window Functions` `SQLAlchemy` `Pandas` `Python` `Database Design` `Backup & Recovery` `Jupyter Notebooks` `Data Engineering`
+`MySQL` `SQL Joins`  `Window Functions` `SQLAlchemy` `Pandas` `Python` `Database Design` `Backup & Recovery` `Jupyter Notebooks` 
 
 ---
 
