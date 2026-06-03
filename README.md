@@ -16,8 +16,8 @@ This repository documents my SQL internship journey, progressing from foundation
 
 ```
  sql-internship/
-├── TASK_1.ipynb              # Database setup & basic SQL queries
-├── TASK_2_SQL.ipynb           # Advanced queries: JOINs, CTEs, Window Functions
+├── TASK_1.pdf              # Database setup & basic SQL queries
+├── TASK_2_SQL.pdf           # Advanced queries: JOINs, CTEs, Window Functions
 ├── TASK_3_SQL_SQLAlchemy.ipynb   # Python + MySQL via SQLAlchemy
 └── TASK_4_SQL_RESTORING.ipynb    # Database backup & restoration
 ```
